@@ -4,6 +4,7 @@ Behold!  The humble beginnings of an online retail store!  Built using Ruby on R
 
 
 
+
 # So far…
 
 - Users can add products to their shopping cart.
@@ -18,7 +19,8 @@ Behold!  The humble beginnings of an online retail store!  Built using Ruby on R
 
 
 
-## Things to improve:
+
+# Things to improve:
 
 - I would add an Admin user model which would be the only user able to create, edit, or remove products.
 
@@ -31,21 +33,23 @@ Behold!  The humble beginnings of an online retail store!  Built using Ruby on R
 - I would take more time to develop the styling.
 
 
+
 All in all, this was a great challenge and a nice way to jump back into Rails.  I had never even created a shopping cart before!  Not too bad for a night’s work.
+
 
 
 # To install and run this app...
 
-## 1. Git clone the repository
+### 1. Git clone the repository
 
-## 2. Run bundle install
+### 2. Run bundle install
 
-## 3. Run rake db:create
+### 3. Run rake db:create
 
-## 4. Run rake db:migrate
+### 4. Run rake db:migrate
 
-## 5. Run rake db:seed
+### 5. Run rake db:seed
 
-## 6. Run bin/rails s from the command line.
+### 6. Run bin/rails s from the command line.
 
-## 7. Open your browser to localhost:3000
+### 7. Open your browser to localhost:3000
