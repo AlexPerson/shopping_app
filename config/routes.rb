@@ -3,7 +3,9 @@ Rails.application.routes.draw do
 
   root to: "products#index"
 
-  get 'cart/index'
+  get '/cart' => 'cart#index'
+  get '/cart/clear' => 'cart#clearCart'
+  get '/cart/:id' => 'cart#add'
 
   resources :products
   # The priority is based upon order of creation: first created -> highest priority.
