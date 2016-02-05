@@ -14,11 +14,43 @@
  *= require_self
  */
 
- *{
+
+ body, html {
+   height: 100%;
+   width: 100%;
+   text-align: center;
+ }
+
+ .alert {
+   box-shadow: none;
    margin: 0;
    padding: 0;
  }
 
+ tr{
+   margin: 4px;
+   padding-top: 10px;
+ }
+
+ table#table1 {
+   width:70%;
+   margin-left:15%;
+   margin-right:15%;
+ }
+
+ tbody{
+   margin-right: 100px;
+ }
+
+ a {
+   padding: 5px;
+ }
+
+ input {
+   margin-bottom: 10px;
+ }
+
+/*
  #nav{
    width: 100%;
    height: 40px;
@@ -47,4 +79,4 @@
    width: 90%;
    float: left;
    margin: 20px 5% 0 5%;
- }
+ }*/
