@@ -27,3 +27,13 @@ I would take more time to develop the styling.
 
 
 All in all, this test was a great challenge and a nice way to jump back into Rails.  I had never even created a shopping cart before!  It’s not real flashy but not too bad for a night’s work.
+
+To run this app...
+
+Clone the repository.
+
+Run bundle install.
+
+Run bin/rails s from the command line.
+
+Open your browser to localhost:3000
